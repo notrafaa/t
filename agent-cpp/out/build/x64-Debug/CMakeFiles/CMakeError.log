@@ -1,0 +1,138 @@
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_99fe8
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_99fe8.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_99fe8.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_99fe8.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_99fe8.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_99fe8.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(29): fatal error C1083: Impossible d'ouvrir le fichier include : 'unistd.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_32603
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_32603.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_32603.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_32603.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_32603.dir\CurlTests.c.obj  /out:cmTC_32603.exe /implib:cmTC_32603.lib /pdb:cmTC_32603.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+FAILED: cmTC_32603.exe 
+C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_32603.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_32603.dir\CurlTests.c.obj  /out:cmTC_32603.exe /implib:cmTC_32603.lib /pdb:cmTC_32603.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_32603.dir\CurlTests.c.obj /out:cmTC_32603.exe /implib:cmTC_32603.lib /pdb:cmTC_32603.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_32603.dir/intermediate.manifest CMakeFiles\cmTC_32603.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: symbole externe non résolu IoctlSocket référencé dans la fonction main
+cmTC_32603.exe : fatal error LNK1120: 1 externes non résolus
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a1a96
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_a1a96.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_a1a96.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_a1a96.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_a1a96.dir\CurlTests.c.obj  /out:cmTC_a1a96.exe /implib:cmTC_a1a96.lib /pdb:cmTC_a1a96.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+FAILED: cmTC_a1a96.exe 
+C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_a1a96.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_a1a96.dir\CurlTests.c.obj  /out:cmTC_a1a96.exe /implib:cmTC_a1a96.lib /pdb:cmTC_a1a96.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_a1a96.dir\CurlTests.c.obj /out:cmTC_a1a96.exe /implib:cmTC_a1a96.lib /pdb:cmTC_a1a96.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_a1a96.dir/intermediate.manifest CMakeFiles\cmTC_a1a96.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: symbole externe non résolu IoctlSocket référencé dans la fonction main
+cmTC_a1a96.exe : fatal error LNK1120: 1 externes non résolus
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6df00
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_6df00.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_6df00.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_6df00.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_6df00.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_6df00.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(306): error C2065: 'FIONBIO' : identificateur non déclaré
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_50de9
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_50de9.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_50de9.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_50de9.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_50de9.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_50de9.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(367): error C2065: 'SO_NONBLOCK' : identificateur non déclaré
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_29a59
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_29a59.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_29a59.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_29a59.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_29a59.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_29a59.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(181): warning C4293: '<<' : compteur de décalage négatif ou trop important, comportement non défini
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(182): warning C4293: '<<' : compteur de décalage négatif ou trop important, comportement non défini
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(181): error C2118: indice négatif
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(181): error C2148: la taille totale du tableau ne doit pas dépasser 0x7fffffff octets
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_72f67
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_72f67.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_72f67.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_72f67.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_72f67.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_72f67.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(458): error C2010: '.' : inattendu dans la liste de paramètres de macro
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(459): error C2010: '.' : inattendu dans la liste de paramètres de macro
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_ATOMIC failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b61c4
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_ATOMIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b61c4.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_b61c4.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_b61c4.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_ATOMIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b61c4.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_b61c4.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(495): error C2065: '_Atomic' : identificateur non déclaré
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(495): error C2143: erreur de syntaxe : absence de ';' avant 'type'
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e3178
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_e3178.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_e3178.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_e3178.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_e3178.dir\CurlTests.c.obj  /out:cmTC_e3178.exe /implib:cmTC_e3178.lib /pdb:cmTC_e3178.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+FAILED: cmTC_e3178.exe 
+C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\cmTC_e3178.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_e3178.dir\CurlTests.c.obj  /out:cmTC_e3178.exe /implib:cmTC_e3178.lib /pdb:cmTC_e3178.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_e3178.dir\CurlTests.c.obj /out:cmTC_e3178.exe /implib:cmTC_e3178.lib /pdb:cmTC_e3178.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_e3178.dir/intermediate.manifest CMakeFiles\cmTC_e3178.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: symbole externe non résolu strerror_r référencé dans la fonction main
+cmTC_e3178.exe : fatal error LNK1120: 1 externes non résolus
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_611e0
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_611e0.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_611e0.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_611e0.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_611e0.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_611e0.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(423): error C2065: 'CLOCK_MONOTONIC' : identificateur non déclaré
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: 'C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_25bd2
+[1/2] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_25bd2.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_25bd2.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+FAILED: CMakeFiles/cmTC_25bd2.dir/CurlTests.c.obj 
+C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_25bd2.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_25bd2.dir\ /FS -c C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(430): error C2065: 'macOS' : identificateur non déclaré
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(430): error C2143: erreur de syntaxe : absence de ')' avant 'constante'
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(430): error C2059: erreur de syntaxe : ')'
+C:\Users\notra\Desktop\t\agent-cpp\out\build\x64-Debug\_deps\curl-src\CMake\CurlTests.c(430): error C2059: erreur de syntaxe : ')'
+ninja: build stopped: subcommand failed.
+
+

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "controlled-av-agent.exe",
+      "name": "controlled-av-agent.exe"
+    }
+  ]
+}

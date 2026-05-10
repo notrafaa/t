@@ -1,0 +1,3 @@
+C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/CMakeFiles/rebuild_cache.dir

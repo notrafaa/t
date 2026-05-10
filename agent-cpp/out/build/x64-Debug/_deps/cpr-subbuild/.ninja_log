@@ -1,0 +1,21 @@
+# ninja log v6
+5	77	8000753760268854	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	dee75360dbc3f2a0
+5	77	8000753760268854	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	dee75360dbc3f2a0
+78	2292	8000753782457085	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	5bbe837d68409bfc
+78	2292	8000753782457085	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	5bbe837d68409bfc
+2293	2480	8000753782613629	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	2e2b61950344fc92
+2293	2480	8000753782613629	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	2e2b61950344fc92
+2480	2556	8000753785048047	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	ea6ec76a76d88f90
+2480	2556	8000753785048047	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	ea6ec76a76d88f90
+2557	2625	8000753785759516	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	e6cde5ba783a579d
+2557	2625	8000753785759516	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	e6cde5ba783a579d
+2625	2695	8000753786465571	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	939148dd2c135d95
+2625	2695	8000753786465571	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	939148dd2c135d95
+2695	2763	8000753787156474	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	a23911c49f57cf82
+2695	2763	8000753787156474	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	a23911c49f57cf82
+2763	2827	8000753787806481	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	759f4908b8555e4c
+2763	2827	8000753787806481	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	759f4908b8555e4c
+2828	2917	8000753788695943	CMakeFiles/cpr-populate-complete	4d04f367968d966f
+2828	2917	8000753788695943	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	4d04f367968d966f
+2828	2917	8000753788695943	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	4d04f367968d966f
+2828	2917	8000753788695943	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	4d04f367968d966f

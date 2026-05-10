@@ -1,0 +1,21 @@
+# ninja log v6
+4	91	8000753824375253	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	c1b2eba43c371ce9
+4	91	8000753824375253	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	c1b2eba43c371ce9
+92	3008	8000753853593895	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	ffbac4e773fde4a3
+92	3008	8000753853593895	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	ffbac4e773fde4a3
+3008	3202	8000753853811879	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	c99d350a7d9e6dab
+3008	3202	8000753853811879	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	c99d350a7d9e6dab
+3202	3274	8000753856269657	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	6f9927c70157cc16
+3202	3274	8000753856269657	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	6f9927c70157cc16
+3274	3352	8000753857039398	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	dbf169cc5761f455
+3274	3352	8000753857039398	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	dbf169cc5761f455
+3352	3426	8000753857796982	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	b7b866c5337b2baa
+3352	3426	8000753857796982	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	b7b866c5337b2baa
+3427	3512	8000753858641809	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	2fa29019e5043fa0
+3427	3512	8000753858641809	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	2fa29019e5043fa0
+3513	3584	8000753859373175	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	6cce5a02db3055a2
+3513	3584	8000753859373175	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	6cce5a02db3055a2
+3584	3680	8000753860340601	CMakeFiles/zlib-populate-complete	250c036170e4a84
+3584	3680	8000753860340601	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	250c036170e4a84
+3584	3680	8000753860340601	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	250c036170e4a84
+3584	3680	8000753860340601	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	250c036170e4a84

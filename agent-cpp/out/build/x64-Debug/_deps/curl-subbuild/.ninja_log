@@ -1,0 +1,21 @@
+# ninja log v6
+5	80	8000753964613263	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	f4b0258f437ba02a
+5	80	8000753964613263	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	f4b0258f437ba02a
+81	6417	8000754027944963	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a02dab511646f36a
+81	6417	8000754027944963	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a02dab511646f36a
+6417	6504	8000754028818433	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	3dc650d9ee7eea91
+6417	6504	8000754028818433	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	3dc650d9ee7eea91
+6504	6604	8000754029858557	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	ffa4e367ab299732
+6504	6604	8000754029858557	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	ffa4e367ab299732
+6604	6708	8000754030797700	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	53b50666ba9f5873
+6604	6708	8000754030797700	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	53b50666ba9f5873
+6709	6798	8000754031724559	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	45fbe85ccb9dbb46
+6709	6798	8000754031724559	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	45fbe85ccb9dbb46
+6799	6887	8000754032661585	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	9f54ad4de08796eb
+6799	6887	8000754032661585	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	9f54ad4de08796eb
+6887	7043	8000754034142292	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	cd1941a36914fbb4
+6887	7043	8000754034142292	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	cd1941a36914fbb4
+7044	7181	8000754035619284	CMakeFiles/curl-populate-complete	cadb63506dcbd762
+7044	7181	8000754035619284	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	cadb63506dcbd762
+7044	7181	8000754035619284	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	cadb63506dcbd762
+7044	7181	8000754035619284	C:/Users/notra/Desktop/t/agent-cpp/out/build/x64-Debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	cadb63506dcbd762
