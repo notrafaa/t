@@ -1,0 +1,15 @@
+{
+  "/api/auth/logout/route": "/api/auth/logout",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/devices/[id]/logs/route": "/api/devices/[id]/logs",
+  "/api/devices/[id]/commands/route": "/api/devices/[id]/commands",
+  "/api/devices/route": "/api/devices",
+  "/api/devices/[id]/approve/route": "/api/devices/[id]/approve",
+  "/api/screenshots/route": "/api/screenshots",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/devices/[id]/page": "/dashboard/devices/[id]",
+  "/login/page": "/login",
+  "/page": "/",
+  "/audit/page": "/audit"
+}

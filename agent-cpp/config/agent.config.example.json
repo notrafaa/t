@@ -1,0 +1,11 @@
+{
+  "supabaseUrl": "https://xvlfhrwkrbqiedlhutwk.supabase.co",
+  "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2bGZocndrcmJxaWVkbGh1dHdrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzNTA2NjQsImV4cCI6MjA5MzkyNjY2NH0._-uiomEmWAAuXbF2x4NnQiB-XPIzGjLvShlqsbi5UPA",
+  "deviceId": "",
+  "deviceName": "",
+  "pairingCode": "",
+  "agentAccessToken": "",
+  "commandSigningSecret": "test",
+  "heartbeatIntervalMs": 3000,
+  "enableStartupShortcut": false
+}
